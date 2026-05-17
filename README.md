@@ -64,5 +64,43 @@ Fake Store API
 
 ⭐ Wishlist & reviews
 sweety kumari
+Ashiya 
+
+
+
+
+
+
+
+
+Developed by 
+sweety kumari
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Developed by Raushan Kumar
