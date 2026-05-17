@@ -63,7 +63,6 @@ Fake Store API
 📦 Order history & user profile
 
 ⭐ Wishlist & reviews
-
-👨‍💻 Author
+sweety kumari
 
 Developed by Raushan Kumar
