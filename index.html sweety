@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweety's Cloud Cart</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0f2fe, #bbf7d0);
+            color: #333;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h1 { margin: 0; color: #0369a1; font-size: 24px; }
+        .tagline { font-size: 14px; color: #059669; margin-top: 5px; }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card img { max-width: 100%; height: 150px; object-fit: contain; }
+        .price { font-weight: bold; color: #0369a1; margin: 10px 0; }
+        .btn {
+            background: #0ea5e9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover { background: #0284c7; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>☁️ Sweety's Cloud Cart</h1>
+        <div class="tagline">Powered by Cloud AI • Smart Shopping Experience</div>
+    </header>
+
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Shoes">
+            <h3>Cloud AI Neo Sneakers</h3>
+            <p class="price">₹2,499</p>
+            <button class="btn" onclick="alert('Added to Sweety\'s Cloud Cart!')">Buy Now</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+            <h3>Aura Sync Headphones</h3>
+            <p class="price">₹4,999</p>
+            <button class="btn" onclick="alert('Added to Sweety\'s Cloud Cart!')">Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Watch">
+            <h3>Quantum Smartwatch</h3>
+            <p class="price">₹3,299</p>
+            <button class="btn" onclick="alert('Added to Sweety\'s Cloud Cart!')">Buy Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
