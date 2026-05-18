@@ -74,7 +74,7 @@ Ashiya
 
 
 Developed by 
-sweety kumari
+sweety kumari & Ashiya 
 
 
 
